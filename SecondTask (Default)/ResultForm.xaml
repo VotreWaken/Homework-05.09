@@ -1,0 +1,38 @@
+﻿<Window x:Class="SecondTask__Default_.ResultForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SecondTask__Default_"
+        mc:Ignorable="d"
+        Title="ResultForm" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0">
+            <Label>Number Of Offers:</Label>
+            <Label Name="OffersResult"></Label>
+        </WrapPanel>
+        <WrapPanel Grid.Row="1">
+            <Label>Number Of Symbols:</Label>
+            <Label Name="SymbolsResult"></Label>
+        </WrapPanel>
+        <WrapPanel Grid.Row="2">
+            <Label>Number Of Words:</Label>
+            <Label Name="WordsResult"></Label>
+        </WrapPanel>
+        <WrapPanel Grid.Row="3">
+            <Label>Interrogative Sentences:</Label>
+            <Label Name="InterrogativeResult"></Label>
+        </WrapPanel>
+        <WrapPanel Grid.Row="4">
+            <Label>Exclamation Sentences:</Label>
+            <Label Name="ExclamationResult"></Label>
+        </WrapPanel>
+    </Grid>
+</Window>
